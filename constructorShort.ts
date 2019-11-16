@@ -4,6 +4,10 @@ class ConstructorShort {
 
     }
 
+    getThis(){
+        return this.x;
+    }
+
     draw() {
 
 //       console.log('X: ' + this.x + ' Y: ' + this.y);
